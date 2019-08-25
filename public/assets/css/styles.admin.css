@@ -1,0 +1,80 @@
+html {
+  font-family: 'Comfortaa', 'Noto Sans KR', 'Noto Sans SC', sans-serif;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.logo {
+  height: 25px;
+  width: auto;
+}
+
+.contents {
+  position: absolute;
+  top: 80px;
+  width: 100vw;
+}
+
+.contents > div {
+  min-height: calc(100vh - 80px);
+}
+
+.aside {
+  padding: 15px;
+  border-right: 1px solid #f5f5f5f5;
+  overflow: hidden;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+
+.menu-link {
+  border-bottom: 1px solid #f5f5f5f5;
+}
+
+.menu-link > .uk-icon {
+  padding-right: 15px;
+}
+
+.menu-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.close {
+  width: 58px;
+}
+
+.close .menu-link {
+  border-bottom: 1px solid #ffffff;
+}
+
+.close .menu-text {
+  opacity: 0;
+  display: none;
+}
+
+.close .menu-link > .uk-icon {
+  padding-right: 0;
+}
+
+.onoff-btn {
+  position: absolute;
+  margin-top: 15px;
+  padding: 15px 10px;
+  background: #f5f5f5f5;
+  border-radius: 0 10px 10px 0;
+  color: #222222;
+}
+
+.onoff-btn:hover {
+  color: #888888;
+}
+
+.content {
+  padding: 15px 20px 15px 80px;
+}
